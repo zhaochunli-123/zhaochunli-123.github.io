@@ -216,26 +216,55 @@ tags:
 除这些数学公式之外，还可以书写很多类型的数学公式，限于篇幅就不在这里一一示范了。
 
 ### 3.11 文字处理
+#### 3.11.1 普通文字处理
 博文中可对文字进行处理，处理内容包含文字大小、格式、颜色、字体等等。
 ```
-其中文字倾斜可以使用markdown自带语法，例如 *斜体*、+++删除文本+++等等。
+其中文字倾斜可以使用markdown自带语法，例如：
+**这是加粗的文字**
+*这是倾斜的文字*`
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~等等。
 但若要修改字体、文字大小、文字颜色，就要用到Html 代码了。
 例如：
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font> 
-<font color=red>我是红色</font>
-<font color=Blue>我是蓝色</font>
-<font size=5>我是文字尺寸</font> 
-<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+<div markdown="0"><font face="黑体">我是黑体字</font></div>
+<div markdown="0"><font face="微软雅黑">我是微软雅黑</font> </div>
+<div markdown="0"><font color=red>我是红色</font></div>
+<div markdown="0"><font color=Blue>我是蓝色</font></div>
+<div markdown="0"><font size=5>我是文字尺寸</font> </div>
+<div markdown="0"><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></div>
 ```
 效果分别如下所示：
-*斜体*、+++删除文本+++
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font> 
-<font color=red>我是红色</font>
-<font color=Blue>我是蓝色</font>
-<font size=5>我是文字尺寸</font> 
-<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+**这是加粗的文字**
+*这是倾斜的文字*`
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~
+<div markdown="0"><font face="黑体">我是黑体字</font></div>
+<div markdown="0"><font face="微软雅黑">我是微软雅黑</font> </div>
+<div markdown="0"><font color=red>我是红色</font></div>
+<div markdown="0"><font color=Blue>我是蓝色</font></div>
+<div markdown="0"><font size=5>我是文字尺寸</font> </div>
+<div markdown="0"><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></div>
+
+#### 3.11.2 特殊文字处理
+###### 3.11.2.1 上标
+```
+例如：E = mc<sup>2</sup>
+```
+效果为：E = mc<sup>2</sup>
+
+##### 3.11.2.2 下标
+```
+例如：Water: H<sub>2</sub>O
+```
+效果为：Water: H<sub>2</sub>O
+
+##### 3.11.2.3 下划线
+```
+例如：<u>下划内容</u>
+
+```
+效果为：<u>下划内容</u>
+
 
 ### 3.12 脚注或引用
 使用语法如下所示：
