@@ -82,7 +82,7 @@ tags:
     ```
 ```
 上面所举代码高亮显示效果如下所示
-```python
+~~~python
     import requests   #导入requests模块
     
     headers={"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"}
@@ -95,7 +95,7 @@ tags:
         text=''
         pass
     print(text)
-```
+~~~
 ### 3.5、插入无序列表
 插入无序列表的语法如下所示
 ```
