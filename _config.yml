@@ -77,7 +77,7 @@ ba_track_id: [11accef3bbd97c1332e50a1a70fd60ba]
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我们来自尘埃，也终将回归尘埃"
+sidebar-about-description: "业精于勤而荒于嬉，行成于思而毁于随"
 sidebar-avatar: https://aerozf.oss-cn-beijing.aliyuncs.com/images/photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
