@@ -49,11 +49,11 @@ tags:
 插入图片的语法如下所示
 ```
 ![图片名称——这部分可留空](图片的网络地址)
-例如：![](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
+例如：![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ```
 显示效果如下所示：
 
-![](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
+![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ### 3.3、文本链接
 如果你想在某段文本中插入链接，就可以使用文本链接。语法如下所示
 ```
@@ -146,7 +146,7 @@ tags:
 ### 3.8、插入视频
 
 <div markdown="0">
-<video id="video" controls="" preload="none" poster="https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif">
+<video id="video" controls="" width="320" height="240" preload="none" poster="https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif">
 <source id="mp4" src="https://vodkgeyttp8.vod.126.net/cloudmusic/a698/core/b34e/381a512878077c9bfa7f3d068497dda5.mp4?wsSecret=4d28eae50de067af6363035d94b248e0&wsTime=1562129858">
 </video>
 </div>
