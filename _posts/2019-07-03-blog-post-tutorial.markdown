@@ -155,7 +155,7 @@ tags:
 ```
 插入视频的html代码如下所示
 <div markdown="0">
-<video id="video" controls="" width="320" height="240" preload="none" poster="视频封面图片地址">
+<video id="video" controls="" width="400" height="300" preload="none" poster="视频封面图片地址">
 <source id="mp4" src="视频地址">
 </video>
 </div>
@@ -174,16 +174,18 @@ tags:
 ```
 插入音频的html代码如下所示
 <div markdown="0">
-<audio id="audio" controls="" preload="none" poster="音频封面">
+<audio id="audio" controls="" preload="none">
       <source id="mp3" src="音频地址" >
 </audio></div>
 ```
 效果如下所示：
 <div markdown="0">
-<audio id="audio" controls="" preload="none" poster="http://p2.music.126.net/tC1MuCpUBvJKzlIsxr2VbQ==/109951163841662048.jpg">
+<audio id="audio" controls="" preload="none">
       <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp3">
 </audio></div>
 
+### 3.10、插入公式
+$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
 你可以在这里面发表你的感想、影评书评、笔记、摄影作品、学习历程等等，祝你使用愉快
