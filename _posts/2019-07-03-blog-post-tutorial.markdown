@@ -228,10 +228,10 @@ tags:
 例如：
 <div markdown="0"><font face="黑体">我是黑体字</font></div>
 <div markdown="0"><font face="微软雅黑">我是微软雅黑</font> </div>
-<div markdown="0"><font color=red>我是红色</font></div>
-<div markdown="0"><font color=Blue>我是蓝色</font></div>
-<div markdown="0"><font size=5>我是文字尺寸</font> </div>
-<div markdown="0"><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></div>
+<div markdown="0"><font color="red">我是红色</font></div>
+<div markdown="0"><font color="blue">我是蓝色</font></div>
+<div markdown="0"><font size="5">我是文字尺寸</font> </div>
+<div markdown="0"><font face="黑体" color="green" size="5">我是黑体，绿色，尺寸为5</font></div>
 ```
 效果分别如下所示：
 **这是加粗的文字**
@@ -240,10 +240,10 @@ tags:
 ~~这是加删除线的文字~~
 <div markdown="0"><font face="黑体">我是黑体字</font></div>
 <div markdown="0"><font face="微软雅黑">我是微软雅黑</font> </div>
-<div markdown="0"><font color=red>我是红色</font></div>
-<div markdown="0"><font color=Blue>我是蓝色</font></div>
-<div markdown="0"><font size=5>我是文字尺寸</font> </div>
-<div markdown="0"><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></div>
+<div markdown="0"><font color="red">我是红色</font></div>
+<div markdown="0"><font color="blue">我是蓝色</font></div>
+<div markdown="0"><font size="5">我是文字尺寸</font> </div>
+<div markdown="0"><font face="黑体" color="green" size="5">我是黑体，绿色，尺寸为5</font></div>
 
 #### 3.11.2 特殊文字处理
 ###### 3.11.2.1 上标
@@ -286,6 +286,7 @@ tags:
 *[CN]: China
 ```
 效果如下所示：
+WTF,美国对CN封锁涡扇发动机技术，我们要自立更生，打败他美国佬！
 *[WTF]: What the fuck
 *[涡扇发动机]: 涡轮风扇发动机
 *[CN]: China
