@@ -144,11 +144,11 @@ tags:
 | 左2    |  中2     |  右3   |
 
 ### 3.6、插入视频
-
+<div markdown="0">
 <video id="video" controls="" preload="none" poster="https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif">
 <source id="mp4" src="https://vodkgeyttp8.vod.126.net/cloudmusic/a698/core/b34e/381a512878077c9bfa7f3d068497dda5.mp4?wsSecret=4d28eae50de067af6363035d94b248e0&wsTime=1562129858">
 </video>
-
+</div>
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
 你可以在这里面发表你的感想、影评书评、笔记、摄影作品、学习历程等等，祝你使用愉快
