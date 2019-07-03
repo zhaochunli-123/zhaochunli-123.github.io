@@ -185,10 +185,9 @@ tags:
 </audio></div>
 
 ### 3.10、插入公式
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" title="\begin{bmatrix} 1 & 2 & 3 & \\ 2& 0& 2 & \\ 3& 9& 4& \end{bmatrix}" /></a>
+</div>
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
 你可以在这里面发表你的感想、影评书评、笔记、摄影作品、学习历程等等，祝你使用愉快
