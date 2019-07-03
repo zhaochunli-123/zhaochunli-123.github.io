@@ -185,6 +185,9 @@ tags:
 </audio></div>
 
 ### 3.10、插入公式
+<div markdown="0">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<div markdown="0">
 $\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
