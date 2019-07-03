@@ -145,7 +145,7 @@ tags:
 
 ### 3.6、插入视频
 
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
+<video id="video" controls="" preload="none" poster="https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif">
 <source id="mp4" src="https://vodkgeyttp8.vod.126.net/cloudmusic/a698/core/b34e/381a512878077c9bfa7f3d068497dda5.mp4?wsSecret=4d28eae50de067af6363035d94b248e0&wsTime=1562129858">
 </video>
 
