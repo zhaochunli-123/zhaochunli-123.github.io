@@ -47,10 +47,10 @@ tags:
 插入图片的语法如下所示
 ```
 ![图片名称——这部分可留空](图片的网络地址)
-例如：![花朵](http://img2.imgtn.bdimg.com/it/u=654886400,2725458462&fm=26&gp=0.jpg)
+例如：![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ```
 显示效果如下所示：
-![花朵](http://img2.imgtn.bdimg.com/it/u=654886400,2725458462&fm=26&gp=0.jpg)
+[嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ### 3.3、文本链接
 如果你想在某段文本中插入链接，就可以使用文本链接。语法如下所示
 ```
