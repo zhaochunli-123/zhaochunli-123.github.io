@@ -185,9 +185,82 @@ tags:
 </audio></div>
 
 ### 3.10、插入公式
+插入公式要借助在线公式编辑器[LaTeX](https://www.codecogs.com/latex/eqneditor.php),该编辑区下方有公式链接，可以直接粘贴在markdown中。具体方法如下所示
+```
+1.打开LaTeX公式在线编辑网站
+2.编辑好公示后，把生成的代码复制下来
+3.代码按以下格式写到markdown编辑器中
+<div markdown="0">+复制到生成的代码+</div>
+
+以显示三行四列的矩阵为例：
 <div markdown="0">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" title="\begin{bmatrix} 1 & 2 & 3 & \\ 2& 0& 2 & \\ 3& 9& 4& \end{bmatrix}" /></a>
-</div>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" title="\begin{bmatrix} 1 & 2 & 3 & \\ 2& 0& 2 & \\ 3& 9& 4& \end{bmatrix}" /></a></div>
+```
+
+#### 3.10.1 矩阵示例
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;&&space;\\&space;2&&space;0&&space;2&space;&&space;\\&space;3&&space;9&&space;4&&space;\end{bmatrix}" title="\begin{bmatrix} 1 & 2 & 3 & \\ 2& 0& 2 & \\ 3& 9& 4& \end{bmatrix}" /></a></div>
+
+#### 3.10.2 微积分示例
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{0}^{20}\sin&space;3x&plus;\arctan&space;\frac{1}{x}dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{0}^{20}\sin&space;3x&plus;\arctan&space;\frac{1}{x}dx" title="\int_{0}^{20}\sin 3x+\arctan \frac{1}{x}dx" /></a></div>
+
+#### 3.10.3 求极限
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\lim_{x\rightarrow&space;0}\frac{x}{\sin&space;x}=1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\lim_{x\rightarrow&space;0}\frac{x}{\sin&space;x}=1" title="\lim_{x\rightarrow 0}\frac{x}{\sin x}=1" /></a></div>
+
+#### 3.10.4 公式组
+纳维-斯托克斯方程（大名鼎鼎的N-S方程）
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{cases}&space;&&space;\rho&space;\frac{du}{dt}=-\frac{\partial&space;p}{\partial&space;x}&plus;\rho&space;X&plus;\mu&space;\Delta&space;u\\&space;&&space;\rho&space;\frac{d\nu&space;}{dt}=-\frac{\partial&space;p}{\partial&space;y}&plus;\rho&space;Y&plus;\mu&space;\Delta&space;\nu&space;\\&space;&&space;\rho&space;\frac{dw}{dt}=-\frac{\partial&space;p}{\partial&space;z}&plus;\rho&space;Z&plus;\mu&space;\Delta&space;w&space;\end{cases}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{cases}&space;&&space;\rho&space;\frac{du}{dt}=-\frac{\partial&space;p}{\partial&space;x}&plus;\rho&space;X&plus;\mu&space;\Delta&space;u\\&space;&&space;\rho&space;\frac{d\nu&space;}{dt}=-\frac{\partial&space;p}{\partial&space;y}&plus;\rho&space;Y&plus;\mu&space;\Delta&space;\nu&space;\\&space;&&space;\rho&space;\frac{dw}{dt}=-\frac{\partial&space;p}{\partial&space;z}&plus;\rho&space;Z&plus;\mu&space;\Delta&space;w&space;\end{cases}" title="\begin{cases} & \rho \frac{du}{dt}=-\frac{\partial p}{\partial x}+\rho X+\mu \Delta u\\ & \rho \frac{d\nu }{dt}=-\frac{\partial p}{\partial y}+\rho Y+\mu \Delta \nu \\ & \rho \frac{dw}{dt}=-\frac{\partial p}{\partial z}+\rho Z+\mu \Delta w \end{cases}" /></a></div>
+除这些数学公式之外，还可以书写很多类型的数学公式，限于篇幅就不在这里一一示范了。
+
+### 3.11 文字处理
+博文中可对文字进行处理，处理内容包含文字大小、格式、颜色、字体等等。
+```
+其中文字倾斜可以使用markdown自带语法，例如 *斜体*、+++删除文本+++等等。
+但若要修改字体、文字大小、文字颜色，就要用到Html 代码了。
+例如：
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font> 
+<font color=red>我是红色</font>
+<font color=Blue>我是蓝色</font>
+<font size=5>我是文字尺寸</font> 
+<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+```
+效果分别如下所示：
+*斜体*、+++删除文本+++
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font> 
+<font color=red>我是红色</font>
+<font color=Blue>我是蓝色</font>
+<font size=5>我是文字尺寸</font> 
+<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+
+### 3.12 脚注或引用
+使用语法如下所示：
+```
+人有悲欢离合，月有阴晴圆缺.[^1]
+
+[^1]: 《水调歌头》
+```
+效果如下所示：
+人有悲欢离合，月有阴晴圆缺.[^1]
+
+[^1]: 《水调歌头》
+
+### 3.13 缩略语
+使用语法如下所示：
+```
+*[WTF]: What the fuck
+*[涡扇发动机]: 涡轮风扇发动机
+*[CN]: China
+```
+效果如下所示：
+*[WTF]: What the fuck
+*[涡扇发动机]: 涡轮风扇发动机
+*[CN]: China
+
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
 你可以在这里面发表你的感想、影评书评、笔记、摄影作品、学习历程等等，祝你使用愉快
