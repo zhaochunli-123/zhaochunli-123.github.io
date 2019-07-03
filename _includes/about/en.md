@@ -1,4 +1,3 @@
-> No pains,no gains
+> To make each day count!
 
-Hi, I am Zhao Chunli,This is my personal blog.
->Please complete your self-introduction by yourself.Zhao Chunli.
+Hi, I'm Zhang Fan. This is my personal blog. Welcome to visit.
