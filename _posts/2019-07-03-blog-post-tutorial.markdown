@@ -45,6 +45,7 @@ tags:
 效果如下所示
 
 > 这句话将被引用
+
 ### 3.2、插入图片
 插入图片的语法如下所示
 ```
@@ -54,6 +55,7 @@ tags:
 显示效果如下所示：
 
 ![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
+
 ### 3.3、文本链接
 如果你想在某段文本中插入链接，就可以使用文本链接。语法如下所示
 ```
@@ -62,6 +64,7 @@ tags:
 ```
 
 你听过周笔畅唱的流浪地球的主题曲《[去流浪](https://music.163.com/#/song?id=1344340338)》吗？可好听了
+
 ### 3.4、插入代码
 如果你的博文中需要插入代码，可以使用如下语法使你的代码高亮，显示更美观
 ```
@@ -100,6 +103,7 @@ tags:
         pass
     print(text)
 ~~~
+
 ### 3.5、插入无序列表
 插入无序列表的语法如下所示
 ```
@@ -113,6 +117,7 @@ tags:
 - 我是第一个无序列表
 - 我是第二个无序列表
 - 我是第三个无序列表
+
 ### 3.6、插入有序列表
 插入有序列表的语法如下所示
 ```
@@ -126,6 +131,7 @@ tags:
 1. 我是第一个有序列表
 2. 我是第二个有序列表
 3. 我是第三个有序列表
+
 ### 3.7、插入表格
 插入表格的语法如下所示：
 ```
@@ -144,12 +150,39 @@ tags:
 | 左2    |  中2     |  右3   |
 
 ### 3.8、插入视频
+由于markdown没有插入视频的语法，故需要直接插入html代码来实现插入视频的效果了（很简单的），如下所示
 
+```
+插入视频的html代码如下所示
 <div markdown="0">
-<video id="video" controls="" width="320" height="240" preload="none" poster="https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif">
-<source id="mp4" src="https://vodkgeyttp8.vod.126.net/cloudmusic/a698/core/b34e/381a512878077c9bfa7f3d068497dda5.mp4?wsSecret=4d28eae50de067af6363035d94b248e0&wsTime=1562129858">
+<video id="video" controls="" width="320" height="240" preload="none" poster="视频封面图片地址">
+<source id="mp4" src="视频地址">
 </video>
 </div>
+```
+效果如下所示：
+
+<div markdown="0">
+<video id="video" controls="" width="320" height="240" preload="none" poster="http://p2.music.126.net/tC1MuCpUBvJKzlIsxr2VbQ==/109951163841662048.jpg">
+<source id="mp4" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/videos/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp4">
+</video>
+</div>
+
+### 3.9、插入音频
+由于markdown没有插入音频的语法，故需要直接插入html代码来实现插入音频的效果了（很简单的），如下所示
+
+```
+插入音频的html代码如下所示
+<div markdown="0">
+<audio id="audio" controls="" preload="none" poster="音频封面">
+      <source id="mp3" src="音频地址" >
+</audio></div>
+```
+效果如下所示：
+<div markdown="0">
+<audio id="audio" controls="" preload="none" poster="http://p2.music.126.net/tC1MuCpUBvJKzlIsxr2VbQ==/109951163841662048.jpg">
+      <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp3">
+</audio></div>
 
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
