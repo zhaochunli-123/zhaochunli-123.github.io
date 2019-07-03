@@ -50,7 +50,7 @@ tags:
 例如：![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ```
 显示效果如下所示：
-![嘿嘿](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
+![](https://chunlioss.oss-cn-beijing.aliyuncs.com/images/5af27f751eedd9c0.gif)
 ### 3.3、文本链接
 如果你想在某段文本中插入链接，就可以使用文本链接。语法如下所示
 ```
