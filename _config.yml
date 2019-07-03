@@ -1,7 +1,7 @@
 # Site settings
 title: Auroraus Blog
 SEOTitle: 张凡的博客 | Auroraus Blog
-header-img: https://aerozf.oss-cn-beijing.aliyuncs.com/images/bg.jpg
+header-img: img/home-bg.jpg
 email: aerozhang525@163.com
 description: "This is Auroraus's blog"
 url: "https://zhangfan525.top"              # your host, for absolute URL
