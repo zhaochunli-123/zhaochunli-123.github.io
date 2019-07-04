@@ -4,7 +4,7 @@ title:      "博客发文教程"
 subtitle:   " \"Blog post tutorial\""
 date:       2019-07-02 18:33:00
 author:     "张凡"
-header-img: "img/post-bg-2015.jpg"
+header-img: "/img/post-bg-2015.jpg"
 catalog: true
 tags:
     - 教程
