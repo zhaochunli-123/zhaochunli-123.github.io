@@ -278,6 +278,14 @@ tags:
 
 [^1]: 《水调歌头》
 
+### 3.13 图片名称
+使用语法如下所示：
+```
+<div align="center" markdown="0"><font size="字号大小">图片名称</font> </div>
+例如：<div align="center" markdown="0"><font size="2">图片名称</font> </div>
+```
+效果如下所示：
+<div align="center" markdown="0"><font size="2">图片名称</font> </div>
 
 ## 结语
 记录生活，记录精彩
