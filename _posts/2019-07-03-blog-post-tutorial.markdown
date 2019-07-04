@@ -4,10 +4,11 @@ title:      "博客发文教程"
 subtitle:   " \"Blog post tutorial\""
 date:       2019-07-02 18:33:00
 author:     "张凡"
-header-img: "img/post-bg-2015.jpg"
+header-img: "/img/post-bg-2015.jpg"
 catalog: true
 tags:
     - 教程
+    - markdown
 ---
 
 > Hello world,hello blog. 
@@ -88,7 +89,7 @@ tags:
     print(text)
     ```
 ```
-上面所举代码高亮显示效果如下所示
+上面所举例的代码高亮显示效果如下所示
 ~~~python
     import requests   #导入requests模块
     
@@ -135,7 +136,6 @@ tags:
 ### 3.7、插入表格
 插入表格的语法如下所示：
 ```
-大学|录取最低分|录取平均分|录取人数
 | 左对齐 | 中间对齐 | 右对齐 |
 | :---   |  :---:   |   ---: |
 | 左1    |  中1     |  右1   |
@@ -281,4 +281,4 @@ tags:
 
 ## 结语
 希望你能喜欢这个专属于你的博客网站，赵春丽。
-你可以在这里面发表你的感想、影评书评、笔记、摄影作品、学习历程等等，祝你使用愉快
+你可以在这里面发表你的感想、影评书评、学习笔记、摄影作品、学习历程等等，祝你使用愉快
