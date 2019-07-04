@@ -12,9 +12,7 @@ tags:
 ---
 
 > # Introduction
-
 > This book has been written to provide a simple and self-contained description of the working and underlying principles of the aero gas turbine engine. The use of complex formulae and the language of the specialist have been avoided to allow for a clear and concise presentation of the essential facts. Only such description and formulae, therefore, as are necessary to the understanding of the function and the theory of the engine are included.
-
 > It will be noted that the emphasis in this book is on the turbo-jet engine and that no special part deals with the propeller-turbine engine. This is because the working principles of both engine types are essentially the same. However where differences in function or application do exist, these are described. The aero gas turbine is being continually developed to provide improved performance for each new generation of aircraft; the fourth edition of this book has been revised and expanded to include the latest aero gas engine technology.
 
 # 引言
