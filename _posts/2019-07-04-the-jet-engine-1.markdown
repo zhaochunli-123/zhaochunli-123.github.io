@@ -4,7 +4,7 @@ title:      "The Jet Engine（航空发动机原理）翻译"
 subtitle:   " \"Translation the book of the jet engine\""
 date:       2019-07-04 08:35:00
 author:     "张凡"
-header-img: "https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/jetengine.jpg"
+header-img: "aerozf.oss-cn-beijing.aliyuncs.com/jetengine/jetengine.jpg"
 catalog: true
 tags:
     - 教程
