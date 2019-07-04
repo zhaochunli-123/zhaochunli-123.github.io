@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "航空发动机原理-1（翻译版）"
+title:      "航空发动机原理-1（翻译版——未完待续）"
 subtitle:   " \"The jet engine-1 (translation version)\""
 date:       2019-07-04 08:35:00
 author:     "张凡"
