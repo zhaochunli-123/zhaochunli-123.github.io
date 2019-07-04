@@ -105,10 +105,10 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "张凡的博客",
-        href: "http://zhangfan525.top"
-    },{
-        title: "赵春丽的博客",
-        href: "/"
-    }
+    #    title: "张凡的博客",
+    #    href: "http://zhangfan525.top"
+    #},{
+    #    title: "赵春丽的博客",
+    #    href: "/"
+    #}
 ]
