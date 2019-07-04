@@ -8,6 +8,7 @@ header-img: "/img/post-bg-2015.jpg"
 catalog: true
 tags:
     - 教程
+    - markdown
 ---
 
 > Hello world,hello blog. 
@@ -88,7 +89,7 @@ tags:
     print(text)
     ```
 ```
-上面所举代码高亮显示效果如下所示
+上面所举例的代码高亮显示效果如下所示
 ~~~python
     import requests   #导入requests模块
     
@@ -135,7 +136,6 @@ tags:
 ### 3.7、插入表格
 插入表格的语法如下所示：
 ```
-大学|录取最低分|录取平均分|录取人数
 | 左对齐 | 中间对齐 | 右对齐 |
 | :---   |  :---:   |   ---: |
 | 左1    |  中1     |  右1   |
