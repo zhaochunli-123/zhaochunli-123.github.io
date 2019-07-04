@@ -4,7 +4,7 @@ title:      "美丽的家乡"
 subtitle:   " \"Beautiful hometown\""
 date:       2019-07-04 14:12:00
 author:     "张凡"
-header-img: "/img/post-bg-2015.jpg"
+header-img: "https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_112151.jpg"
 catalog: true
 tags:
     - 家乡
@@ -37,22 +37,4 @@ tags:
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190702_224827.jpg)
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190702_224903.jpg)
 
-## 3、家乡的傍晚（散步）
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_111601.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_111648.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_111741.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_111856.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_112057.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_112151.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/PSX_20190621_112322.jpg)
-
-## 4、学骑摩托的路上
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_142942.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_142947.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_143435.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_143446.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_143547.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_143648.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_144331.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_144339.jpg)
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/IMG_20190619_151317.jpg)
+......未完待续
