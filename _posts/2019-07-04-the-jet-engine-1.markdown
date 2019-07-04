@@ -17,9 +17,9 @@ tags:
 
 # 前言
 
-编写本书的目的是为航空燃气涡轮发动机的工作原理和基本原理提供简单而独立的描述。 避免使用复杂的公式和专家的语言，以便清楚，简洁地介绍基本事实。 因此，仅包括对理解发动机的功能和理论所必需的这种描述和公式。
+这本书旨在提供航空燃气涡轮发动机的工作原理和基本原理的简单和独立的描述。避免使用复杂的公式和专业的术语，以便能够清晰、简洁地陈述基本原理。因此，本书只包括理解发动机的功能和理论所必需的描述和公式。
 
-值得注意的是，本书的重点是涡轮喷气发动机，没有特殊部件涉及螺旋桨涡轮发动机。 这是因为两种发动机类型的工作原理基本相同。 然而，在存在功能或应用的差异的情况下，描述了这些。 航空燃气轮机正在不断发展，以便为每一代新一代飞机提供更好的性能; 本书的第四版已经过修订和扩展，包括最新的航空燃气发动机技术。
+值得注意的是，本书的重点是涡轮喷气发动机，没有涉及螺旋桨涡轮发动机的特殊部件。 这是因为这两种类型的发动机工作原理基本相同。 然而，这两种发动机在功能和应用方面是存在差异的，这些都在本书中说明了。 航空燃气轮机正在不断发展，以便于为新一代的飞机提供更好的性能; 本书的第四版已经过修订和扩展，包括最新的航空燃气发动机技术。
 
 > # 1 Basic mechanics
 ### INTRODUCTION 
@@ -29,7 +29,8 @@ tags:
 4.	The jet engine (fig. 1-2), although appearing so different from the piston engine-propeller combination, applies the same basic principles to effect propulsion. As shown in fig. 1-3, both propel their aircraft solely by thrusting a large weight of air backwards.
 5.	Although today jet propulsion is popularly linked with the gas turbine engine, there are other types of jet propelled engines, such as the ram jet, the pulse jet, the rocket, the turbo/ram jet, and the turbo-rocket.
 
-![图 1-1 Lorin（洛林）的喷气发动机](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p1.jpg)
+![](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p1.jpg)
+<center>图 1-1 Lorin（洛林）的喷气发动机</center>
 
 
 # 1 基本构造
