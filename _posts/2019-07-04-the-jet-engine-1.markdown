@@ -29,9 +29,9 @@ tags:
 4.	The jet engine (fig. 1-2), although appearing so different from the piston engine-propeller combination, applies the same basic principles to effect propulsion. As shown in fig. 1-3, both propel their aircraft solely by thrusting a large weight of air backwards.
 5.	Although today jet propulsion is popularly linked with the gas turbine engine, there are other types of jet propelled engines, such as the ram jet, the pulse jet, the rocket, the turbo/ram jet, and the turbo-rocket.
 
-![](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p1.jpg)
-<center>图 1-1 Lorin（洛林）的喷气发动机</center>
-
+<div align="center" markdown="0">![](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p1.jpg)<font size="5">图1-1 洛林的喷气发动机</font> </div>
+<div align="center" markdown="0">![](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p2-1.jpg)<font size="5">图1-2 惠特尔型涡轮喷气发动机</font> </div>
+<div align="center" markdown="0">![](https://aerozf.oss-cn-beijing.aliyuncs.com/jetengine/p2-2.jpg)<font size="5">图1-3 螺旋桨和喷气推进</font> </div>
 
 # 1 基本构造
 ### 引言
