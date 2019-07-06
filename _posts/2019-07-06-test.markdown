@@ -34,3 +34,12 @@ print(r.text)
 <source id="mp4" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/videos/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp4" />
 </video>
 </div>
+
+#### 1.4 音频测试
+
+<div markdown='0'e>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp3" />
+</audio></div>
+
+
