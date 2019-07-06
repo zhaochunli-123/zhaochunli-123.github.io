@@ -1,10 +1,10 @@
 # Site settings
-title: Auroraus Blog
-SEOTitle: 张凡的博客 | Auroraus Blog
+title: Chunli Blog
+SEOTitle: 赵春丽的博客 | Chunli Blog
 header-img: img/home-bg-art.jpg
-email: aerozhang525@163.com
-description: "This is Auroraus's blog"
-url: "https://zhangfan525.top"              # your host, for absolute URL
+email: zf083415@gmail.com
+description: "This is Chunli's blog"
+url: "https://www.zhaochunli.site"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -12,7 +12,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     auroraus
+#weibo_username:     auroraus
 #zhihu_username:     huxpro
 github_username:    auroraus
 #twitter_username:   huxpro
@@ -78,7 +78,7 @@ ba_track_id: [11accef3bbd97c1332e50a1a70fd60ba]
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "业精于勤而荒于嬉，行成于思而毁于随"
-sidebar-avatar: https://aerozf.oss-cn-beijing.aliyuncs.com/images/photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://chunlioss.oss-cn-beijing.aliyuncs.com/images/chunli.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -102,10 +102,10 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "张凡的英语阅读网站",
-        href: "https://liuwen.applinzi.com"
+         title: "赵春丽的博客",
+         href: "http://www.zhaochunli.site/"
+    },{
+        title: "张凡的博客",
+        href: "http：//zhangfan525.top"
     }
 ]
