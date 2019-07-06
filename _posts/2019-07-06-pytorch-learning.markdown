@@ -34,13 +34,26 @@ pytorch 官网网址：https://pytorch.org/，或者直接[点击我](https://py
    - 5、cuda即显卡支持的版本，若无显卡，则选None
    
 #### 1.2 查看显卡支持的版本
+   - 1、打开电脑控制面板，找到 **NAVID控制面板**
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   <div align="center" markdown="0"><font size="2">图3 控制面板页面</font> </div>
+   
+   - 2、双击打开 **NAVID控制面板**
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   <div align="center" markdown="0"><font size="2">图4 NAVID面板首页</font> </div>
+
+   - 3、在 **NAVID控制面板** 上部导航栏找到帮助 > 系统信息 ，在组件中找到NAVID.dll，cuda 后面显示数字的整数位即为cuda支持的版本（我的是9）
+   
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   <div align="center" markdown="0"><font size="2">图5 NAVID cuda信息</font> </div>
+   - 4、
    
 #### 1.3 通过链接下载pytorch的.wheel文件
 
-如上面提到的，选择好所有项目后，如图3所示，分别复制pip3 后面的两个链接，下载pytorch的.wheel文件（下载时间可能有点长，请耐心等待）。
+如上面提到的，选择好所有项目后，如图6所示，分别复制pip3 后面的两个链接，下载pytorch的.wheel文件（下载时间可能有点长，请耐心等待）。
 
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/QQ%E5%9B%BE%E7%89%8720190706093805.png)
-<div align="center" markdown="0"><font size="2">图3 pytorch下载链接</font> </div>
+<div align="center" markdown="0"><font size="2">图6 pytorch下载链接</font> </div>
 
 #### 1.4、pip安装pytorch
 
@@ -56,6 +69,6 @@ pip3 install wheel文件保存地址.wheel
 最后，来import测试一下是否成功。
 
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/QQ%E5%9B%BE%E7%89%8720190706095229.png)
-<div align="center" markdown="0"><font size="2">图4 测试pytorch是否安装成功</font> </div>
+<div align="center" markdown="0"><font size="2">图7 测试pytorch是否安装成功</font> </div>
 
-如果如图四所示，没有出现报错，那么恭喜你，pytorch安装成功。
+如果如图7所示，没有出现报错，那么恭喜你，pytorch安装成功。
