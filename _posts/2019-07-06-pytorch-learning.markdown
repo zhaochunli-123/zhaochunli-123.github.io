@@ -2,12 +2,12 @@
 layout:     post
 title:      "pytorch 学习笔记"
 subtitle:   " \"pytorch learning note\""
-date:       2019-07-06 8:33:00
+date:       2019-07-06 08:33:00
 author:     "张凡"
 header-img: "https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/Artificial_network.jpg"
 catalog: true
 tags:
-    - pyorch
+    - pytorch
     - 神经网络
     - python
 ---
@@ -16,7 +16,7 @@ tags:
  
 #### 1.1、首先进入pytorch官网
 
-pytorch 官网网址：https://pytorch.org/，或者直接[点击我](https://pytorch.org/)进入官网
+pytorch 官网网址：https://pytorch.org/，  或者直接[点击我](https://pytorch.org/)进入官网
 
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091452.png)
 <div align="center" markdown="0"><font size="2">图1 pytorch官网首页</font> </div>
@@ -149,4 +149,3 @@ plt.show()
 
 ![](https://morvanzhou.github.io/static/results/torch/2-3-1.png)
 <div align="center" markdown="0"><font size="2">图8 常见激励函数图像</font> </div>
-
