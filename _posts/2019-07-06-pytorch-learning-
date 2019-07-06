@@ -58,4 +58,4 @@ pip3 install wheel文件保存地址.wheel
 ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/QQ%E5%9B%BE%E7%89%8720190706095229.png)
 <div align="center" markdown="0"><font size="2">图4 测试pytorch是否安装成功</font> </div>
 
-如果如图四所示，没有出现报错，那么恭喜你，pytorch安装成功了。
+如果如图四所示，没有出现报错，那么恭喜你，pytorch安装成功了
