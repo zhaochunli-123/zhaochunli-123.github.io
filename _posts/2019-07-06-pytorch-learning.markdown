@@ -35,16 +35,16 @@ pytorch 官网网址：https://pytorch.org/，或者直接[点击我](https://py
    
 #### 1.2 查看显卡支持的版本
    - 1、打开电脑控制面板，找到 **NAVID控制面板**
-   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706101628.png)
    <div align="center" markdown="0"><font size="2">图3 控制面板页面</font> </div>
    
    - 2、双击打开 **NAVID控制面板**
-   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706101640.png)
    <div align="center" markdown="0"><font size="2">图4 NAVID面板首页</font> </div>
 
    - 3、在 **NAVID控制面板** 上部导航栏找到帮助 > 系统信息 ，在组件中找到NAVID.dll，cuda 后面显示数字的整数位即为cuda支持的版本（我的是9）
    
-   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/20190706091511.png)
+   ![](https://aerozf.oss-cn-beijing.aliyuncs.com/images/pytorch/QQ%E5%9B%BE%E7%89%8720190706101758.png)
    <div align="center" markdown="0"><font size="2">图5 NAVID cuda信息</font> </div>
    - 4、
    
