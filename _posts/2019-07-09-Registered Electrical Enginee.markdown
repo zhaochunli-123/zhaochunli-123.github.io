@@ -4,7 +4,7 @@ title:      "Registered Electrical Enginee"
 subtitle:   " \"Registered Electrical Enginee learning note\""
 date:       2019-07-09 05:52:00
 author:     "赵春丽"
-header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/D4C69F1E63E80FD63A69D7FAC940000C.jpg"
+header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/IMG_20190709_062015.jpg"
 catalog: true
 tags:
 - Registered Electrical Enginee
