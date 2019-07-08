@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "小调"
+subtitle:   " \"poetry\""
+date:       2019-07-08 21:53:00
+author:     "赵春丽"
+header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/IMG_20190708_215438.jpg"
+catalog: true
+tags:
+- poetry
+---
+
+  西瓜，蒲扇，小庭院，装满了整个夏天。
+  
+  看花又吃草的羊：
+  
+  生命最好的态度本不是马不停蹄地奔跑，而是不辜负身边的每一场花开
+  
+  喜欢紫色梅子轻罗小扇扑流萤的恬淡，但我又不像梅子姐，我不可以只赏花，还要吃草，还要奔跑，幸运地是我也刚好喜欢跑起来才可以感受到的呼啸而过，充满挑战和刺激感，
+ 
+  I thought I would be the last shadow in your eyes.  希望有一天什么都凑巧，只是“我以为”在变少。
+  
+  每天love多一点
+  
+  
+  
