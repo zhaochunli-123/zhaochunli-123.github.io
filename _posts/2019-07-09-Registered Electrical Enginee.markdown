@@ -22,5 +22,6 @@ tags:
    * 高阶导数一般不考，但也是一个知识点
    * 每求一次导，奇偶性改变一次
    * 课件上的例题要会
-  <div markdown="0">+http://latex.91maths.com/s/?JTVDYmVnaW4lN0JwbWF0cml4JTdEJTBBaSUyMCUyNiUyMGolMjAlMjYlMjBrJTVDJTVDJTBBeDElMjAlMjYlMjB5MSUyMCUyNiUyMHoxJTVDJTVDJTBBeDIlMjAlMjYlMjB5MiUyMCUyNiUyMHoyJTBBJTVDZW5kJTdCcG1hdHJpeCU3RA==+</div>
+  <div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;1&space;&&space;2\\&space;3&space;&&space;4&space;\right&space;|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;|&space;1&space;&&space;2\\&space;3&space;&&space;4&space;\right&space;|" title="\left | 1 & 2\\ 3 & 4 \right |" /></a></div>
    
