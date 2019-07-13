@@ -22,3 +22,7 @@ tags:
   * 时隔数月我的毕业季，天气转晴你转身，可是真的不好意思，我，不容辜负，既已天涯，不再回头。
   
   * 往事已勾销，所有的开端和终点，先要爱自己，这么长时间的身心俱疲，需要太多的时间和空间。接下来为了监督自己养成更多的好习惯，我尽可能坚持培养并更新属于自己的养生与养性的系列博文。
+  <div markdown="0">
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp3" >
+</audio></div>
