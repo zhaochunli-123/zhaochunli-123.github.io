@@ -9,6 +9,10 @@ catalog: true
 tags:
 - health
 ---
+  <div markdown="0">
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E8%BE%B0%E5%BF%83%20-%20%E5%88%AB%E7%88%B1%E5%A4%AA%E6%BB%A1%E5%88%AB%E7%9D%A1%E5%A4%AA%E6%99%9A.mp3" >
+</audio></div>
   * “你拖我走出一场爱的风雪，我背你逃出一次梦的断裂”，人家说一次入骨三分的爱情结束之后大概像是经历了一场地震，灾后重建需要很长时间
   
   * 我永远不会忘记考研那段时间自己走在路上，坐在教室里莫名其妙的思念和泪流满面；
@@ -22,7 +26,4 @@ tags:
   * 时隔数月我的毕业季，天气转晴你转身，可是真的不好意思，我，不容辜负，既已天涯，不再回头。
   
   * 往事已勾销，所有的开端和终点，先要爱自己，这么长时间的身心俱疲，需要太多的时间和空间。接下来为了监督自己养成更多的好习惯，我尽可能坚持培养并更新属于自己的养生与养性的系列博文。
-  <div markdown="0">
-<audio id="audio" controls="" preload="none">
-      <source id="mp3" src="https://chunliblog.oss-cn-beijing.aliyuncs.com/audios/%E5%8E%BB%E6%B5%81%E6%B5%AA.mp3" >
-</audio></div>
+  
