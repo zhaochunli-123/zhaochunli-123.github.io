@@ -23,5 +23,5 @@ tags:
    * 每求一次导，奇偶性改变一次
    * 课件上的例题要会
   <div markdown="0">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;1&space;&&space;2\\&space;3&space;&&space;4&space;\right&space;|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;|&space;1&space;&&space;2\\&space;3&space;&&space;4&space;\right&space;|" title="\left | 1 & 2\\ 3 & 4 \right |" /></a></div>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\left|\begin{matrix}&space;i&&space;j&&space;k\\&space;x1&&space;x2&&space;x3\\&space;y1&&space;y2&&space;y3&space;\end{matrix}\right|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left|\begin{matrix}&space;i&&space;j&&space;k\\&space;x1&&space;x2&&space;x3\\&space;y1&&space;y2&&space;y3&space;\end{matrix}\right|" title="\left|\begin{matrix} i& j& k\\ x1& x2& x3\\ y1& y2& y3 \end{matrix}\right|" /></a></div>
    
