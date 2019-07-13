@@ -23,5 +23,5 @@ tags:
    * 每求一次导，奇偶性改变一次
    * 课件上的例题要会
   <div markdown="0">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\left|\begin{matrix}&space;i&&space;j&&space;k\\&space;x1&&space;x2&&space;x3\\&space;y1&&space;y2&&space;y3&space;\end{matrix}\right|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left|\begin{matrix}&space;i&&space;j&&space;k\\&space;x1&&space;x2&&space;x3\\&space;y1&&space;y2&&space;y3&space;\end{matrix}\right|" title="\left|\begin{matrix} i& j& k\\ x1& x2& x3\\ y1& y2& y3 \end{matrix}\right|" /></a></div>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\left|\begin{matrix}&space;i&space;&&space;j&space;&&space;k\\&space;x1&space;&&space;x2&space;&&space;x3\\&space;y1&space;&&space;y2&space;&&space;y3&space;\end{matrix}\right|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left|\begin{matrix}&space;i&space;&&space;j&space;&&space;k\\&space;x1&space;&&space;x2&space;&&space;x3\\&space;y1&space;&&space;y2&space;&&space;y3&space;\end{matrix}\right|" title="\left|\begin{matrix} i & j & k\\ x1 & x2 & x3\\ y1 & y2 & y3 \end{matrix}\right|" /></a></div>
    
