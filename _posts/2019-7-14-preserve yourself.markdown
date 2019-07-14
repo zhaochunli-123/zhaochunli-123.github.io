@@ -4,7 +4,7 @@ title:      "preserve your health"
 subtitle:   " \"beautiful\""
 date:       2019-07-14 11:15:00
 author:     "赵春丽"
-header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/%E5%81%A5%E8%BA%AB%E5%A5%B3%E5%AD%A9.jpg"
+header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/QQ%E5%9B%BE%E7%89%8720190714112836.jpg"
 catalog: true
 tags:
 - health
