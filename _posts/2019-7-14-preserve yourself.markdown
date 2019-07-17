@@ -10,6 +10,7 @@ tags:
 - health
 ---
 # 饮食篇
+![大表姐](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/IMG_20190717_130157.jpg)
 * <div markdown="0"><font color="green">晨起一杯温开水，补充昨晚的新陈代谢消耗的水分，清洗肠道，排出毒素</font></div>
 * <div markdown="0"><font color="green">早饭不要吃太饱，但要吃好，少量的高质量饮食会让人精神愉悦，轻松高效，保证上午不犯困，中午前一个小时有饥饿感最佳</font></div>
 * <div markdown="0"><font color="green">午饭前半个小时（11：30）吃一个西红柿或者黄瓜，再喝一杯温热水（菊花/枸杞/金银花/柠檬百香果），这个要慢饮</font></div>
