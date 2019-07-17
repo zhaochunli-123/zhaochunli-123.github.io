@@ -49,8 +49,8 @@ plot(x) %以x向量的元素下标为横坐标，向量元素为纵坐标(1,1.5)
    <div markdown="0">
    <a href="https://www.codecogs.com/eqnedit.php?latex=y=e^{axt}" target="_blank"><img           src="https://latex.codecogs.com/gif.latex?y=e^{axt}" title="y=e^{axt}" /></a></div>
    ``` MATLAB
-   title('x_{1}{\geq}x_{2}') %x1>=x2(grater than or equal to)
-   title('{\bf y=cos{\omega}t+{\bate}}') % \bf加粗；
+   title('x_{1}{\geq}x_{2}')  % x1>=x2(grater than or equal to)
+   title('{\bf y=cos{\omega}t+{\bate}}')  % \bf加粗；
    ```
    <div markdown="0">
    <a href="https://www.codecogs.com/eqnedit.php?latex=y=coswt&plus;\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=coswt&plus;\beta" title="y=coswt+\beta" /></a></div>
