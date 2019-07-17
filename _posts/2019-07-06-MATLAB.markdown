@@ -43,7 +43,7 @@ plot(x) %以x向量的元素下标为横坐标，向量元素为纵坐标(1,1.5)
    ```
    * 使用LATEX格式控制符
    ``` MATLAB
-   title（‘y=cos{\omega}t’）  % y=coswt
+   title(‘y=cos{\omega}t’)  % y=coswt
    title('y=e^{ext}') % 
    ``` 
    <div markdown="0">
