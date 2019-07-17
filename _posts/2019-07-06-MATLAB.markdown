@@ -41,4 +41,11 @@ plot(x) %以x向量的元素下标为横坐标，向量元素为纵坐标(1,1.5)
    ``` MATLAB
    title({'MATLAB','y=sin(x)'})
    ```
-   * 设置标题字号和颜色
+   * 使用LATEX格式控制符
+   ``` MATLAB
+   title（‘y=cos{\omega}t’）  % y=coswt
+   title('y=e^{ext}') %<div markdown="0"> <a href="https://www.codecogs.com/eqnedit.php?latex=y=e^{axt}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=e^{axt}" title="y=e^{axt}" /></a></div>
+   
+   
+   
+   
