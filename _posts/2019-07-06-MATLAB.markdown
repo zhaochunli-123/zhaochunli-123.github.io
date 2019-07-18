@@ -9,6 +9,8 @@ catalog: true
 tags:
     - MATLAB
 ---
+#### 特殊函数积累
+x=linspace(0,2*pi,100);在0-2{\pi}之间等距取100个点
 #### plot函数的用法
 
 * 1.plot(x,y) :
@@ -59,22 +61,30 @@ plot(x) %以x向量的元素下标为横坐标，向量元素为纵坐标(1,1.5)
       <a href="https://www.codecogs.com/eqnedit.php?latex=y=coswt&plus;\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=coswt&plus;\beta" title="y=coswt+\beta" /></a></div>
       ``` MATLAB
       title('y=cos{\omega}t','color','r') %fontsize是字体大小属性，后边可以设置为24
-      
+      ```
       * 标注
        text(-2*pi,0,'\leftarrow -2{\pi}')  %在指定坐标处标注左箭头及文本，gtext函数不用坐标，直接用鼠标点击即可
       * 坐标轴
       axis([-2*pi 2*pi -1 1]):手动设置xy轴的范围
+      
       axis equal:纵横坐标轴采用等长刻度，刻度划分相同
+      
       axis square:产生正方形坐标系，默认为矩形
+      
       axis auto:默认设置
+      
       axis off:取消坐标轴
       * 网格和边框
       grid on:显示网格线
+      
       grid off:不显示
+      
       box on:有边框
       * 图形保持
       hold on:图形保持
+      
       axis on:显示坐标轴
+      
    
    
    
