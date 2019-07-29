@@ -14,7 +14,7 @@ future: true
 RSS: false
 #weibo_username:     auroraus
 #zhihu_username:     huxpro
-github_username:    auroraus
+github_username:    zhaochunli-123
 #twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -106,6 +106,6 @@ friends: [
          href: "http://www.zhaochunli.site/"
     },{
         title: "张凡的博客",
-        href: "http：//zhangfan525.top"
+        href: "http://zhangfan525.top"
     }
 ]
