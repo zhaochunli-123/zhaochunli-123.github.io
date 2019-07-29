@@ -26,6 +26,6 @@ tags:
    
    * 教学课件：活泼、萌系——方正喵呜体/少儿体/卡通简体、华康少女文字、新蒂小丸子；严谨认真——宋体、楷体
    
-   *下载字体的网站：站长素材 http://font.chinaz.com/；求字体网(可以查字体) http://www.qiuziti.com/；下载字体完成之后直接安装就可以了，但是要记住字体的名称
+   * 下载字体的网站：[站长素材](http://font.chinaz.com/) ：http://font.chinaz.com/ ；[求字体网(可以查字体)](http://www.qiuziti.com/)：http://www.qiuziti.com/ ；下载字体完成之后直接安装就可以了，但是要记住字体的名称
    
    
