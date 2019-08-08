@@ -1,1 +1,15 @@
+---
+layout:     post
+title:      "mind map"
+subtitle:   " \"思维导图学习笔记\""
+date:       2019-08-09 6:14:00
+author:     "赵春丽"
+header-img: "https://chunliblog.oss-cn-beijing.aliyuncs.com/images/%E5%9F%8E%E5%A0%A1.png"
+catalog: true
+tags:
+- study
+---
 
+#### 思维导图的五星心法
+
+   * 逻辑化、结构化、简单化、图示化、放射化
