@@ -9,3 +9,9 @@ catalog: true
 tags:
 - champion
 ---
+
+## 数据建模常规的MATLAB实现
+
+### 1.1数据的读入与读出
+
+#### 1.1.1 EXCEL与MATLAB的数据交互
