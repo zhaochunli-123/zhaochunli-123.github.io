@@ -29,7 +29,7 @@ a=load(figure.doc)
 出错 f7 (line 1)
 a=load(figure.doc)
 ```
-解决办法：把figure.doc记事本放在F盘MATLAB的工作文件中即可
+  解决办法：把figure.doc记事本放在F盘MATLAB的工作文件中即可
 
 * <div markdown="0"><font color="red">记事本中没办法插入表格，然后我就在记事本中把表格数据复制过去了，命名为t.txt</font></div>
 
