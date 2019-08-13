@@ -120,6 +120,13 @@ cfun =
 ![拟合框](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB3.png)
 fitname:cfun;
 然后设置一下x;y;Degree;
-根据左下角的SEE、RMSE越接近于0越好，R-squre越接近于1拟合效果越好；
+根据左下角的SEE、RMSE，表示方差越接近于0越好，R-squre越接近于1拟合效果越好；
+
+### 1.3 数据拟合应用实例
+
+#### 1.3.1 人口预测模型
+
+1.描绘出人口分布散点图——初步确定拟合函数——根据函数中y和x的关系，想办法设计y'和x'确定一个较为简单的函数关系
+
 
 
