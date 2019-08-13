@@ -12,6 +12,19 @@ tags:
 
 ## 数据建模常规的MATLAB实现
 
-### 1.1数据的读入与读出
+### 1.1 数据的读入与读出
 
-#### 1.1.1 EXCEL与MATLAB的数据交互
+#### 1.1.1 EXCEL与 MATLAB 的数据交互
+
+* 我的EXCEL中没找到加载宏选项
+
+#### 1.1.2 记事本与 MATLAB 的数据交互
+
+* 我在桌面创建的记事本，在MATLAB中用load就会显示错误
+```MATLAB
+a=load(figure.doc) 
+
+未定义变量 "figure" 或类 "figure.doc"。
+出错 f7 (line 1)
+a=load(figure.doc)
+```
