@@ -62,5 +62,7 @@ This is the datebase of class1.
 
 lili Type1 2 3 yes
 
+### 1.2 数据拟合方法
 
+#### 1.2.1 多项式拟合
 
