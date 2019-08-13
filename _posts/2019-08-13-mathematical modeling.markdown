@@ -113,3 +113,13 @@ cfun =
 ```
 拟合效果图：
 ![拟合效果图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB2.png)
+
+#### 1.2.3 曲线拟合工具箱
+
+在命令行直接输入cftool,会出现相应的拟合框，如图：
+![拟合框](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB3.png)
+fitname:cfun;
+然后设置一下x;y;Degree;
+根据左下角的SEE、RMSE越接近于0越好，R-squre越接近于1拟合效果越好；
+
+
