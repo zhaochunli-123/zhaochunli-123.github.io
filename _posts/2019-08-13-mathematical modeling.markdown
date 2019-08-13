@@ -44,6 +44,22 @@ a=load(figure.doc)
 | :---: | :---: |:---:|:---:| :---: |
 |  lili |  girl |  1  |  2  |  yes  |
 
+3.将MATLAB中数据写入记事本中
+
+``` MATLAB
+% 将MATLAB中的数据保存为一个普通的.txt文件，任何软件都可以查看，使用fprintf函数
+% 建立.txt文件
+fip=fopen('tp.txt','wt'); %建立一个文件，返回一个指标
+fprintf(fip,'This is the datebase of class1.\n'); %直接在文件中写入一句话，当然也可以不写
+names='lili';types=1;x=2;y=3;answers='yes'; % 把数据赋值，赋值变量名与fprintf中的A1,,,An要一致
+fprintf(fip,'%s Type%u %u %u %s\n',names,types,x,y,answers); %fprintf(fileID,formatSpec,A1,...,An)；%s是字符串；%f表示浮点数；%u表示十进制数，易错
+fclose(fip) % 最后不要忘记关闭文件
+```
+
+记事本tp.txt中效果如下：
+
+This is the datebase of class1.
+lili Type1 2 3 yes
 
 
 
