@@ -38,6 +38,7 @@ a=load(figure.doc)
 
 总是出错
 ```
+
 | names | types |  x  |  y  | answers |
 | :---: | :---: |:---:|:---:| :---: |
 |  lili |  girl |  1  |  2  |  yes  |
