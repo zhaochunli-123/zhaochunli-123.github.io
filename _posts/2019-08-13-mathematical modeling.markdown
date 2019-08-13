@@ -16,11 +16,11 @@ tags:
 
 #### 1.1.1 EXCEL与 MATLAB 的数据交互
 
-* 我的EXCEL中没找到加载宏选项
+1. 我的EXCEL中没找到加载宏选项
 
 #### 1.1.2 记事本与 MATLAB 的数据交互
 
-* 我在桌面创建的记事本，在MATLAB中用load就会显示错误
+1. 我在桌面创建的记事本，在MATLAB中用load就会显示错误
 
 ``` MATLAB
 a=load(figure.doc) 
@@ -29,9 +29,9 @@ a=load(figure.doc)
 出错 f7 (line 1)
 a=load(figure.doc)
 ```
-  解决办法：把figure.doc记事本放在F盘MATLAB的工作文件中即可
+解决办法：把figure.doc记事本放在F盘MATLAB的工作文件中即可
 
-* <div markdown="0"><font color="red">记事本中没办法插入表格，然后我就在记事本中把表格数据复制过去了，命名为t.txt</font></div>
+2. <div markdown="0"><font color="red">记事本中没办法插入表格，然后我就在记事本中把表格数据复制过去了，命名为t.txt</font></div>
 
 ``` MATLAB
 [name,type,x,y,answer]=textread('t.txt','%s Type%n %n %n %s',2)
