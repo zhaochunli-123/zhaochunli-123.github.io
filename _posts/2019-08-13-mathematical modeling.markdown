@@ -21,7 +21,8 @@ tags:
 #### 1.1.2 记事本与 MATLAB 的数据交互
 
 * 我在桌面创建的记事本，在MATLAB中用load就会显示错误
-```MATLAB
+
+``` MATLAB
 a=load(figure.doc) 
 
 未定义变量 "figure" 或类 "figure.doc"。
