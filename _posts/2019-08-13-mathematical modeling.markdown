@@ -57,8 +57,8 @@ fclose(fip) % 最后不要忘记关闭文件
 ```
 
 记事本tp.txt中效果如下：
-
 This is the datebase of class1.
+
 lili Type1 2 3 yes
 
 
