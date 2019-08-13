@@ -25,7 +25,7 @@ tags:
 ``` MATLAB
 a=load(figure.doc) 
 
-未定义变量 "figure" 或类 "figure.doc"。
+未定义变量 "figure" 或类 "figure.doc".
 出错 f7 (line 1)
 a=load(figure.doc)
 ```
@@ -65,4 +65,14 @@ lili Type1 2 3 yes
 ### 1.2 数据拟合方法
 
 #### 1.2.1 多项式拟合
+
+``` MATLAB
+x=[1,2,3,4,5,6,7,8,9];
+y=[1,2,9,16,21,35,48,64,81]; % 点的x,y坐标值
+p = polyfit(x,y,2);% n是拟合的最高次幂,就是拟合得到的函数是2次的；p是返回的多项式系数
+xi=0:0.2:10;% 拟合曲线的横坐标
+yi=polyval(p,xi);% 拟合得到的纵坐标
+plot(xi,yi,'g  ',x,y,'r *') % xi,yi是一条曲线，后边有该曲线相应的款式和颜色设置；x,y是另一条曲线，同理
+```
+![拟合图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB%E6%88%AA%E5%9B%BE.png)
 
