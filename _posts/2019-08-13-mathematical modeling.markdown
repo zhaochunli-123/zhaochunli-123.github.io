@@ -127,6 +127,9 @@ fitname:cfun;
 #### 1.3.1 人口预测模型
 
 1.描绘出人口分布散点图——初步确定拟合函数——根据函数中y和x的关系，想办法设计y'和x'确定一个较为简单的函数关系
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=y=\frac{1}{a&plus;b\times&space;e^{-t}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=\frac{1}{a&plus;b\times&space;e^{-t}}" title="y=\frac{1}{a+b\times e^{-t}}" /></a></div>
+
 
 
 
