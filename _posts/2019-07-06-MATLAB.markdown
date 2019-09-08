@@ -162,7 +162,7 @@ x是行向量，y是矩阵：
 
 1.绘制折线图
 
-plot(x,y,z):
+(1)plot(x,y,z):
 
    x,y,z是长度相同的向量，对应的三个为数据点坐标
    
@@ -191,6 +191,26 @@ y=[sin(t);sin(t)+1;sin(t)+2;sin(t)+3;sin(t)+4];
 z=t;%x,z都是行向量，向量元素个数与y的列数相同
 plot3(x,y,z)
 ```
+plot3(x1,y1,z1;x2,y2,z2···xn,yn,zn)：每一组向量构成一个数据点坐标，绘制一条曲线
+
+xlable('X'),ylable('Y'),zlable('Z')：将x,y,z坐标轴标上X,Y,Z
+
+(2)fplot3(funx,funy,funz,tlims):
+
+曲线的X,Y,Z坐标用参数方程定义，且参数是一个的时候用，funx,funy,funz代表定义曲线x,y,z坐标的函数，采用函数句柄的方式；tlims为参数函数自变量的范围[tmin,tmax]默认为[-5，5].
+
+<div markdown="0">
+<a href="https://www.codecogs.com/eqnedit.php?latex=x=e^{\frac{-t}{10}}sin(5t);y=e^{\frac{-t}{10}}cos(5t);z=t;(-12\leqslant&space;t\leqslant&space;12&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x=e^{\frac{-t}{10}}sin(5t);y=e^{\frac{-t}{10}}cos(5t);z=t;(-12\leqslant&space;t\leqslant&space;12&space;)" title="x=e^{\frac{-t}{10}}sin(5t);y=e^{\frac{-t}{10}}cos(5t);z=t;(-12\leqslant t\leqslant 12 )" /></a></div>
+
+```MATLAB
+xt=@(t)exp(-t/10).*sin(5*t);
+yt=@(t)exp(-t/10).*cos(5*t);
+zt=@(t)t;
+fplot3(xt,yt,zt,[-12,12])
+```
+![墨西哥帽顶曲线](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_4_2.png)
+
+
       
    
    
