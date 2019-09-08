@@ -133,7 +133,7 @@ fitname:cfun;
 <div markdown="0">
 <a href="https://www.codecogs.com/eqnedit.php?latex=y=\frac{1}{a&plus;b\times&space;e^{-t}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=\frac{1}{a&plus;b\times&space;e^{-t}}" title="y=\frac{1}{a+b\times e^{-t}}" /></a></div>
 
-我们将非线性关系线性化，找到回归系数并进行拟合,<font color="red">但我不会算回归系数和F检验值</font>
+我们将非线性关系线性化，找到回归系数并拟合,<font color="red">但我不会算回归系数和F检验值</font>
 
 ``` MATLAB
 clear
