@@ -181,6 +181,16 @@ z=[t,t,t,t,t];%x,y,z都是由5列与t等长的矩阵构成
 plot3(x,y,z)
 ```
 ![](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_4_1.png)
+
+当然也可以使用向量和矩阵来实现
+
+```MATLAB
+t=0:0.01:2*pi; %创造一个行向量
+x=t;
+y=[sin(t);sin(t)+1;sin(t)+2;sin(t)+3;sin(t)+4];
+z=t;%x,z都是行向量，向量元素个数与y的列数相同
+plot3(x,y,z)
+```
       
    
    
