@@ -123,6 +123,39 @@ x是行向量，y是矩阵：
       
       hist(y,x):y是要统计的数据，x是指定区间的划分方式，将y中的最小值-最大值等分x个区间，并统计落在这个区间的个数，如果没有x，那就是默认分为十个区间；x为标量，就是x个区间；x为向量，则向量的每一个数指定为分组的中间值，向量个数为数据分组数
       
+      rose(theta,x):将圆分为若干个角度为theta的扇形，x为扇形，缺省的时候默认为20个
+      
+      面积类图形
+      
+      pie(x,explode):x存储待统计数据，x的每个元素对应一个扇形，扇形序号从正上方开始逆时针为12345，explode控制图块的显示模式，与扇形对应的非零部分将从扇形中分离出来；
+      legend('优秀','良好','中等','location','eastoutside')：添加图例,将图例添加在扇形图的右外侧，不指定位置，则默认在图形区域内
+      
+      散点类图形
+      
+      scatter(x,y,选项，filled):参数x、y用于定位数据点，选项用于指定数据点线形、颜色、数据点标记‘rd’为红色菱形点，filled表示数据点是实心的，没有注明默认为空心
+      ![心形散点图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4-3.png)
+      stairs:阶梯图
+      stem：杆图（用法和上述基本相同，就是类似于plot函数）
+      
+      矢量类图形
+      
+      compass:罗盘图
+      feather:羽毛图
+      quiver(x,y,u,v):箭头图,(x,y)为矢量起点，(u,v)为矢量终点
+      ```MATLAB
+     A=[4,5];B=[-10,0];C=A+B;%要会写向量
+     hold on;
+     quiver(0,0,A(1),A(2));
+     quiver(0,0,B(1),B(2));
+     quiver(0,0,C(1),C(2));
+     text(A(1),A(2),'A');%要会写备注，在哪个坐标点写什么
+     text(B(1),B(2),'B');
+     text(C(1),C(2),'C');
+     axis([-12,6,-1,6])
+     grid on;
+     ```
+     ![矢量图]（https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_3_1.png）      
+      
    
    
    
