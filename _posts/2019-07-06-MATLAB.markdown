@@ -157,6 +157,25 @@ x是行向量，y是矩阵：
      ```
      
 ![矢量图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_3_1.png)    
+
+#### 三维曲线
+
+1.绘制折线图
+
+plot(x,y,z):
+   x,y,z是长度相同的向量，对应的三个为数据点坐标
+   x,y,z是同型矩阵
+   x,y,z中有向量也有矩阵时，行向量长度与矩阵列数相同，列向量与矩阵的行数相同
+在空间不同位置绘制5条曲线
+
+```MATLAB
+t=0:0.01:2*pi; %创造一个行向量
+t=t';%转化为列向量
+x=[t,t,t,t,t];
+y=[sin(t),sin(t)+1,sin(t)+2,sin(t)+3,sin(t)+4];
+z=[t,t,t,t,t];%x,y,z都是由5列与t等长的矩阵构成
+plot3(x,y,z)
+```
       
    
    
