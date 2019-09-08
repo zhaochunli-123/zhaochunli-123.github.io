@@ -156,7 +156,7 @@ x是行向量，y是矩阵：
      grid on;
      ```
      
-![矢量图]（https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_3_1.png）      
+![矢量图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_3_1.png)    
       
    
    
