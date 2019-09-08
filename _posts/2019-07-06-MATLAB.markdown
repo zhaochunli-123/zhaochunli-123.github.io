@@ -133,10 +133,10 @@ x是行向量，y是矩阵：
  散点类图形
       
       scatter(x,y,选项，filled):参数x、y用于定位数据点，选项用于指定数据点线形、颜色、数据点标记‘rd’为红色菱形点，filled表示数据点是实心的，没有注明默认为空心
-![心形散点图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4-3.png)
-
       stairs:阶梯图
       stem：杆图（用法和上述基本相同，就是类似于plot函数）
+      
+ ![心形散点图](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4-3.png)
       
  矢量类图形
       
@@ -155,6 +155,7 @@ x是行向量，y是矩阵：
      axis([-12,6,-1,6])
      grid on;
      ```
+     
 ![矢量图]（https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_3_1.png）      
       
    
