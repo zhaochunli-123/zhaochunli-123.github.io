@@ -271,6 +271,7 @@ surfl(X,Y,Z);title('surfl(X,Y,Z)')%曲面图，有光照
 grid on;
 ```
 （3）绘制标准三维曲面
+
 1）sphere函数
 
 [x,y,z]=sphere(n),其中x,y,z是n+1阶的矩阵，n是分割点，决定了球面的圆滑程度，默认值为20，可绘制出半径为1的球
@@ -284,6 +285,19 @@ t=linspace(0,2*pi,40);
 [x,y,z]=cylinder(2+cos(t),30);%R是一个矢量，如果是一个线性渐变向量，则可以绘制一个圆锥
 surf(x,y,z);
 ```
+用cylinder函数绘制两个直径相等且相互垂直的两个圆柱面的相交图形
+
+```MATLAB
+[x,y,z]=cylinder(1,60);%半径为1，取60个分割线的柱面
+z=[-1*z(2,:);z(2,:)];%原本z坐标底为零，顶为1，为了画出两个相互垂直的圆柱，将底坐标变道-1，这样柱面高度和直径一样了
+surf(x,y,z);
+hold on;
+surf(x,z,y);%这里也可以是surf(y,z,x)
+```
+3)peaks函数可用来绘制多峰函数
+
+4）如果图形由三个参数来定义自变量，则可以使用fsurf(funx,funy,funz,uvlims)和fmesh(funx,funy,funz,uvlims),利用函数句柄来实现
+
 
 
 
