@@ -210,6 +210,82 @@ fplot3(xt,yt,zt,[-12,12])
 ```
 ![墨西哥帽顶曲线](https://chunliblog.oss-cn-beijing.aliyuncs.com/images/MATLAB/4_4_2.png)
 
+#### 三维曲面
+
+1.生成平面网格数据，再利用mesh函数(三维网格图)和surf函数（三维曲面图）
+
+(1)生成平面网格数据
+
+1）
+
+```MATLAB
+x=2:6;%为网格数据生成一个行向量
+y=(3:6)';%为网格数据生成一个列向量
+%创建网格数据，需要建立X矩阵和Y矩阵，分别放置网格点的坐标，应该都是6*5的矩阵
+X=ones(size(y))*x;%生成一个与y向量同型的单位阵5*1再乘以x行向量可以保证生成的矩阵，每行都是2:6
+Y=y*ones(size(x));%记住这个规律就行，不用深刻理解
+```
+
+2）利用meshgrid函数
+
+```MATLAB
+x=2:6;
+y=(3:6)';
+[X,Y]=meshgrid(x,y);
+```
+若根据每个网格点上的坐标求函数值，可以绘制五条（看x）曲线
+
+```MATLAB
+x=2:6;
+y=(3:6)';
+[X,Y]=meshgrid(x,y);
+Z=randn(size(X));
+plot3(X,Y,Z);%注意三维曲线的绘制参数为网格矩阵X、Y、Z
+grid on;
+```
+（2）绘制三维曲面的函数
+
+```MATLAB
+t=-2:0.2:2;
+[X,Y]=meshgrid(t);%形成数据网格阵
+Z=X.*exp(-X.^2-Y.^2);%注意X、Y是矩阵，在做运算的时候应该用点乘
+subplot(1,3,1);
+mesh(X,Y,Z);%网格图 mesh(X,Y,Z,C)没有C的话，默认颜色和Z轴高度正比例变化
+subplot(1,3,2)
+surf(X,Y,Z);%曲面图
+subplot(1,3,3)
+plot3(X,Y,Z);%曲线图的合并
+grid on;
+```
+``` MATLAB
+[X,Y]=meshgrid(0:0.1:2,1:0.1:3);%形成数据网格阵
+Z=(X-1).^2+(Y-2).^2-1;%注意X、Y是矩阵，在做运算的时候应该用点乘
+subplot(2,2,1);
+meshc(X,Y,Z);title('meshc(X,Y,Z)');%网格图,有等高线
+subplot(2,2,3);
+meshz(X,Y,Z);title('meshz(X,Y,Z)');%网格图,有底座
+subplot(2,2,2);
+surfc(X,Y,Z);title('surfc(X,Y,Z)')%曲面图，有等高线
+subplot(2,2,4)
+surfl(X,Y,Z);title('surfl(X,Y,Z)')%曲面图，有光照
+grid on;
+```
+（3）绘制标准三维曲面
+1）sphere函数
+
+[x,y,z]=sphere(n),其中x,y,z是n+1阶的矩阵，n是分割点，决定了球面的圆滑程度，默认值为20，可绘制出半径为1的球
+
+2）cylinder函数
+
+[x,y,z]=cylinder(R,n),其中R是柱面的半径,R为标量则为圆柱，为矢量则为曲面圆柱，如花瓶
+
+```MATLAB
+t=linspace(0,2*pi,40);
+[x,y,z]=cylinder(2+cos(t),30);%R是一个矢量，如果是一个线性渐变向量，则可以绘制一个圆锥
+surf(x,y,z);
+```
+
+
 
       
    
